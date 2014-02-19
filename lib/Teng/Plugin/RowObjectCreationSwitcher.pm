@@ -3,7 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 use Scope::Guard;
 use Carp qw();
@@ -32,7 +32,9 @@ __END__
 
 =encoding utf-8
 
-Teng::Plugin::RowObjectCreationSwitcher - Teng's plugin which enables/disables suppress_row_objects with guard object.
+=head1 NAME
+
+Teng::Plugin::RowObjectCreationSwitcher - Teng plugin which enables/disables suppress_row_objects with guard object
 
 =head1 SYNOPSIS
 
@@ -73,7 +75,7 @@ it under the same terms as Perl itself.
 
 =head1 AUTHOR
 
-Takuya Tsuchida E<lt>tsucchi@cpan.org<gt>
+Takuya Tsuchida E<lt>tsucchi@cpan.orgE<gt>
 
 =cut
 
